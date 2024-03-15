@@ -1,4 +1,4 @@
-package br.dev.tiagogomes.gof;
+package br.dev.tiagogomes.gof.singleton;
 
 /**
  * Singleton "Lazy Holder",

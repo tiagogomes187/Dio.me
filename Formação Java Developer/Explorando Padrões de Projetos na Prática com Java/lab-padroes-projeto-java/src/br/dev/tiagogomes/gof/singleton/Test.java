@@ -1,4 +1,4 @@
-package br.dev.tiagogomes.gof;
+package br.dev.tiagogomes.gof.singleton;
 
 public class Test {
 	public static void main(String[] args) {
