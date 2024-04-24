@@ -20,12 +20,14 @@ public class Main {
 		System.out.println(queueCarros);
 
 		System.out.println(queueCarros.peek());
+		System.out.print("peek => ");
 		System.out.println(queueCarros);
 
 		System.out.println(queueCarros.poll());
+		System.out.print("poll => ");
 		System.out.println(queueCarros);
-		System.out.println(queueCarros.isEmpty());
+		System.out.print("Verifica se vazio => " + queueCarros.isEmpty() + "\n");
 
-		System.out.println(queueCarros.size());
+		System.out.print("Tamanho da fila => " + queueCarros.size());
 	}
 }
