@@ -1,6 +1,8 @@
-const array : Array<number> = [1,2,3,4]
+import { CompanyAccount } from './class/CompanyAccount';
+import { PeopleAccount } from './class/PeopleAccount';
 
-array.forEach(element => {
-    if(element > 2 && element % 2 === 0)
-    console.log(element * 2)
-});
+const peopleAccount: PeopleAccount = new PeopleAccount(1, "Tiago", 10);
+peopleAccount.deposit()
+
+const companyAccount: CompanyAccount = new CompanyAccount('DIo', 20)
+companyAccount.deposit()
