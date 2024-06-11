@@ -8,7 +8,7 @@ export class CompanyAccount extends DioAccount {
     }
   
     getLoan = (): void => {
-      console.log('Voce pegou um empréstimo')
+      
     }
 
     deposit = (): void => {
